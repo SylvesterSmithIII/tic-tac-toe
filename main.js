@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
     // 1) Define required constants
 const colors = {
     null: 'transparent',
@@ -106,6 +106,4 @@ const colors = {
     // 4.2) Render the state variables to the page
     renderBoard();
     renderMessage();
-  }  
-  });
-  
+  }
