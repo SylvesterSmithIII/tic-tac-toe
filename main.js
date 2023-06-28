@@ -99,7 +99,7 @@ const colors = {
     }
     
     // 5.7) Check for a tie
-    if (!board.includes(null)) {
+    if (winner === null && !board.includes(null)) {
       winner = 'T';
     }
     
